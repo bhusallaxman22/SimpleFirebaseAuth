@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/TodoAuth/static/css/main.84dd4a6b.chunk.css",
+    "main.js": "/TodoAuth/static/js/main.add149c8.chunk.js",
+    "main.js.map": "/TodoAuth/static/js/main.add149c8.chunk.js.map",
+    "runtime-main.js": "/TodoAuth/static/js/runtime-main.64854bf8.js",
+    "runtime-main.js.map": "/TodoAuth/static/js/runtime-main.64854bf8.js.map",
+    "static/js/2.2172c08f.chunk.js": "/TodoAuth/static/js/2.2172c08f.chunk.js",
+    "static/js/2.2172c08f.chunk.js.map": "/TodoAuth/static/js/2.2172c08f.chunk.js.map",
+    "index.html": "/TodoAuth/index.html",
+    "precache-manifest.e36645bfc93f433a6e28020c58f7a619.js": "/TodoAuth/precache-manifest.e36645bfc93f433a6e28020c58f7a619.js",
+    "service-worker.js": "/TodoAuth/service-worker.js",
+    "static/css/main.84dd4a6b.chunk.css.map": "/TodoAuth/static/css/main.84dd4a6b.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.64854bf8.js",
+    "static/js/2.2172c08f.chunk.js",
+    "static/css/main.84dd4a6b.chunk.css",
+    "static/js/main.add149c8.chunk.js"
+  ]
+}
