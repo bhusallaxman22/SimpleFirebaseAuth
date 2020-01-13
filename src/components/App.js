@@ -24,7 +24,7 @@ export default class App extends Component {
     } else {
       this.setState({ anony: "No name provided" });
     }
-let todos =localStorage.getItem("todo")
+let todos =JSON.parse(localStorage.getItem("todo"))
 this.setState({todos})
   }
   signOut() {
@@ -38,7 +38,7 @@ this.setState({todos})
     this.setState({
       todos
     });
-localStorage.setItem("todo",this.state.todos)
+localStorage.setItem("todo",JSON.stringify(this.state.todos))
   };
   onChange = event => {
     let text = event.target.value;
@@ -55,7 +55,7 @@ localStorage.setItem("todo",this.state.todos)
       }
     ];
     this.setState({ todos, text: "", body: "" });
-localStorage.setItem("todo",this.state.todos)
+localStorage.setItem("todo",JSON.stringify(this.state.todos))
   };
   toogleDarkMode = () => {
     if (this.refs.check.checked) {
