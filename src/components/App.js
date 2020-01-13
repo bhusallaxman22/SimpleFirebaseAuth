@@ -24,7 +24,8 @@ export default class App extends Component {
     } else {
       this.setState({ anony: "No name provided" });
     }
-localStorage.getItem("todo")
+let todos =localStorage.getItem("todo")
+this.setState({todos})
   }
   signOut() {
     console.log("app");
