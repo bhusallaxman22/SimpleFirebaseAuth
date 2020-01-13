@@ -24,6 +24,7 @@ export default class App extends Component {
     } else {
       this.setState({ anony: "No name provided" });
     }
+localStorage.getItem("todo")
   }
   signOut() {
     console.log("app");
@@ -36,6 +37,7 @@ export default class App extends Component {
     this.setState({
       todos
     });
+localStorage.setItem("todo",this.state.todos)
   };
   onChange = event => {
     let text = event.target.value;
@@ -52,6 +54,7 @@ export default class App extends Component {
       }
     ];
     this.setState({ todos, text: "", body: "" });
+localStorage.setItem("todo",this.state.todos)
   };
   toogleDarkMode = () => {
     if (this.refs.check.checked) {
